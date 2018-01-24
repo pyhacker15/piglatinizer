@@ -1,1 +1,107 @@
+body { 
+     background: lightgrey;  
+     line-height: .3;
+}     
 
+header {
+     background: #030321;
+     font-family: Arial;
+     font-weight: 800;
+     padding-right: 1000px;
+}
+
+svg {
+     display: block;
+     font: 10.5em 'Montserrat';
+     width: 960px;
+     height: 100px;
+     margin: 0 auto;
+     margin-left: 110px;
+}
+
+.text-copy {
+     fill: none;
+     stroke: white;
+     stroke-dasharray: 6% 29%;
+     stroke-width: 5px;
+     stroke-dashoffset: 0%;
+     animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1) {
+     stroke: #4D163D;
+     animation-delay: -1;
+}
+
+.text-copy:nth-child(2) {
+     stroke: #840037;
+     animation-delay: -2s;
+}
+
+.text-copy:nth-child(3) {
+     stroke: #BD0034;
+     animation-delay: -3s;
+}
+
+.text-copy:nth-child(4) {
+     stroke: #BD0034;
+     animation-delay: -4s;
+}
+
+.text-copy:nth-child(5) {
+     stroke: #FDB731;
+     animation-delay: -5s;
+}
+
+@keyframes stroke-offset {
+     100% {
+         stroke-dashoffset: -35%;
+     }
+}
+
+#userInput { 
+     width: 800px;
+     padding-top: 30px;
+     padding-bottom: 200px;
+} 
+
+.navigation { 
+     /*display: inline-block;*/
+} 
+
+#translate { 
+     /*letter-spacing: .15em;  */
+     float: left;
+     margin-top: 15px;
+     margin-left: 335px;
+} 
+
+#wordCounter  { 
+     margin-top: 10px; 
+     /*width: 900px;*/
+} 
+
+#soundButton { 
+     width: 30px;
+     height: 30px; 
+     margin-left: 320px;
+     margin-top: -20px;
+} 
+
+.form-inline { 
+     margin-top: 20px;  
+} 
+
+#translation { 
+     margin-top: 20px;
+     font-weight: 100px;
+} 
+
+p {
+     margin: 0 0 6px;
+}
+
+
+#display_count { 
+     margin-left: 5px;   
+}
