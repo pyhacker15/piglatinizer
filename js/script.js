@@ -5,7 +5,7 @@ function sentenceToPigLatin( sentence ) {
 		answers.push( pigLatinizer( words[ i ] ) );
 	}
 	return answers.join( " " );
-}
+}       
 
 function sentenceToEnglish( sentence ) {
 	var words = sentence.split( " " );
